@@ -224,7 +224,7 @@
 		},
 		{
 			"name": "Entity",
-			"scope": "entity.name.function.js",
+			"scope": "entity.name.function",
 			"settings": {
 				"foreground": "#e0b60dff"
 			}
@@ -265,7 +265,7 @@
 		},
 		{
 			"name": "Keyword",
-			"scope": "keyword.operator.arithmetic.js",
+			"scope": "keyword.operator.arithmetic",
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#5EAB30"
@@ -489,7 +489,7 @@
 		},
 		{
 			"name": "Variable",
-			"scope": "variable.language.this.js",
+			"scope": "variable.language.this",
 			"settings": {
 				"foreground": "#C96248ff"
 			}
@@ -520,7 +520,7 @@
 		},
 		{
 			"name": "Variable",
-			"scope": "meta.function-call.js.variable.function.js",
+			"scope": "meta.function-call.variable.function",
 			"settings": {
 				"foreground": "#ff0000"
 			}
@@ -534,7 +534,7 @@
 		},
 		{
 			"name": "Variable",
-			"scope": "variable.other.object.js",
+			"scope": "variable.other.object",
 			"settings": {
 				"foreground": "#BE99C5"
 			}
@@ -710,6 +710,17 @@
 			],
 			"settings": {
 				"foreground": "#698145ff"
+			}
+		},
+		{
+			"name": "tag structure",
+			"scope": [
+				"meta.tag.structure",
+				"punctuation.definition.tag.begin",
+				"punctuation.definition.tag.end"
+			],
+			"settings": {
+				"foreground": "#C96248ff"
 			}
 		},
 		{
