@@ -738,6 +738,38 @@
 			}
 		},
 		{
+			"name" : "angular binding",
+			"scope": [
+				"entity.other.ng-binding-name",
+				"punctuation.definition.ng-binding-name.begin.html"
+			],
+			"settings": {
+				"foreground": "#0095A0FF"
+
+			}
+		},
+		{
+			"name" : "angular binding begin-end",
+			"scope": [
+				"punctuation.definition.ng-binding-name.begin.html",
+				"punctuation.definition.ng-binding-name.end.html"
+			],
+			"settings": {
+				"foreground": "#B864C7FF"
+			}
+		},
+		{
+			"name" : "anuglar ngIf",
+			"scope": [
+				"entity.other.ng-binding-name.ngIf.html",
+				"entity.other.ng-binding-name.ngFor.html",
+				"entity.other.ng-binding-name.ngSwitchCase.html",
+			],
+			"settings": {
+				"foreground": "#C96248"
+			}
+		},
+		{
 			"name": "css/scss:tag-name",
 			"scope": "entity.name.tag.css",
 			"settings": {
