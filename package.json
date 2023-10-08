@@ -2,7 +2,7 @@
     "name": "forest-focus-custom",
     "displayName": "Forest Focus Custom",
     "description": "Dark earth-tone theme made to be easy on the eyes. Deep support for JS, PHP, Python, HTML, & CSS",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "A.J. Bale",
     "publisher": "abalejr",
     "galleryBanner": {
@@ -24,7 +24,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Forest Focus",
+                "label": "Forest Focus Custom",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Forest Focus-color-theme.json"
             }
