@@ -1,8 +1,8 @@
 {
-    "name": "forest-focus",
-    "displayName": "Forest Focus",
+    "name": "forest-focus-custom",
+    "displayName": "Forest Focus Custom",
     "description": "Dark earth-tone theme made to be easy on the eyes. Deep support for JS, PHP, Python, HTML, & CSS",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "A.J. Bale",
     "publisher": "abalejr",
     "galleryBanner": {
